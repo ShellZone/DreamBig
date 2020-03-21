@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(11,7,7,1) 40%,
+             rgba(0,125,255,1) 100%);
+    z-index: -1;
+}
+
+
+
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+.burg {
+    justify-self: end;
+}
+
+section{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    
+}
